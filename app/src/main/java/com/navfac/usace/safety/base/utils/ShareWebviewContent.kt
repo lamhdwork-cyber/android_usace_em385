@@ -1,5 +1,6 @@
 package com.navfac.usace.safety.base.utils
 
+import android.content.ClipData
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
@@ -12,13 +13,54 @@ import androidx.core.content.FileProvider
 import androidx.core.text.HtmlCompat
 import java.io.*
 
+private const val MAX_SHARE_TEXT_LENGTH = 100_000
 
 fun share(context: Context, title: String, content: String) {
-    val sharingIntent = Intent(Intent.ACTION_SEND)
-    sharingIntent.type = "text/plain"
-    sharingIntent.putExtra(Intent.EXTRA_SUBJECT, title)
-    sharingIntent.putExtra(Intent.EXTRA_TEXT, content)
-    context.startActivity(Intent.createChooser(sharingIntent, title))
+    if (content.length <= MAX_SHARE_TEXT_LENGTH) {
+        shareAsText(context, title, content)
+    } else {
+        shareAsFile(context, title, content)
+    }
+}
+
+private fun shareAsText(context: Context, title: String, content: String) {
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, title)
+        putExtra(Intent.EXTRA_TEXT, content)
+    }
+
+    context.startActivity(Intent.createChooser(intent, title))
+}
+
+private fun shareAsFile(context: Context, title: String, content: String) {
+    val directory = File(context.cacheDir, "shared").apply {
+        mkdirs()
+    }
+
+    val safeTitle = title
+        .replace(Regex("[^a-zA-Z0-9._-]"), "_")
+        .take(60)
+        .ifBlank { "shared_content" }
+
+    val file = File(directory, "$safeTitle.txt")
+    file.writeText(content, Charsets.UTF_8)
+
+    val uri = FileProvider.getUriForFile(
+        context,
+        "${context.packageName}.provider",
+        file
+    )
+
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, title)
+        putExtra(Intent.EXTRA_STREAM, uri)
+        clipData = ClipData.newRawUri(title, uri)
+        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+    }
+
+    context.startActivity(Intent.createChooser(intent, title))
 }
 
 fun share(context: Context, title: String, content: ImageView) {
