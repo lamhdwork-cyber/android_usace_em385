@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
+import androidx.lifecycle.Lifecycle
 import androidx.navigation.NavController
 import com.google.gson.Gson
 import com.navfac.usace.safety.R
@@ -35,9 +36,7 @@ abstract class BaseActivity<V : ViewDataBinding> : AppCompatActivity() {
 
     protected lateinit var realmBookmark: Realm
 
-    private val loadingDialog: LoadingDialog by lazy(mode = LazyThreadSafetyMode.NONE) {
-        LoadingDialog(this)
-    }
+    private var loadingDialog: LoadingDialog? = null
 
 
     @get:LayoutRes
@@ -86,7 +85,8 @@ abstract class BaseActivity<V : ViewDataBinding> : AppCompatActivity() {
         if (this::realmBookmark.isInitialized && !realmBookmark.isClosed()) {
             realmBookmark.close()
         }
-        loadingDialog.dismiss()
+        loadingDialog?.dismiss()
+        loadingDialog = null
     }
 
     override fun onOptionsItemSelected(menuItem: MenuItem): Boolean {
@@ -101,12 +101,18 @@ abstract class BaseActivity<V : ViewDataBinding> : AppCompatActivity() {
     }
 
     fun showLoading(isLoading: Boolean) {
-        loadingDialog.let {
-            if (isLoading && !loadingDialog.isShowing)
-                loadingDialog.show()
-            else if (!isLoading && loadingDialog.isShowing) {
-                loadingDialog.dismiss()
+        if (isFinishing || isDestroyed) return
+        if (!lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) return
+
+        try {
+            val dialog = loadingDialog ?: LoadingDialog(this).also { loadingDialog = it }
+            if (isLoading && !dialog.isShowing) {
+                dialog.show()
+            } else if (!isLoading && dialog.isShowing) {
+                dialog.dismiss()
             }
+        } catch (_: WindowManager.BadTokenException) {
+            // Activity window token invalid (OEM/WebView timing); skip to avoid crash
         }
     }
 

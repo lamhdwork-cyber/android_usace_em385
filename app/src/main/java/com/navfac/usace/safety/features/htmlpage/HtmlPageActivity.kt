@@ -202,8 +202,10 @@ class HtmlPageActivity : BaseActivity<ActivityHtmlPageBinding>(),
 
     private fun initViews() {
         binding.htmlPageVpContents.apply {
-            adapterPages.downloadListener = {
-                downloadFile(it)
+            adapterPages.downloadListener = { url ->
+                if (!isFinishing && !isDestroyed) {
+                    downloadFile(url)
+                }
             }
             adapter = adapterPages
             reduceDragSensitivity()
@@ -289,6 +291,7 @@ class HtmlPageActivity : BaseActivity<ActivityHtmlPageBinding>(),
             }
 
             override fun onDownloadSuccess() {
+                if (isFinishing || isDestroyed) return
                 showLoading(false)
                 if (file.isValidPdf()) {
                     goToActivity(
@@ -305,6 +308,7 @@ class HtmlPageActivity : BaseActivity<ActivityHtmlPageBinding>(),
             }
 
             override fun onDownloadFailed(e: DownloadException?) {
+                if (isFinishing || isDestroyed) return
                 showLoading(false)
                 file.delete()
                 showToast(this@HtmlPageActivity, getString(R.string.download_file_fail))
