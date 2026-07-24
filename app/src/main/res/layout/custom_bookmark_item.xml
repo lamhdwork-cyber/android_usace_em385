@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myColorBackground">
+
+    <TextView
+        android:id="@+id/search_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/icon_delete"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/search_item_category"
+        app:layout_constraintTop_toBottomOf="@+id/search_item_category"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/search_item_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/myColorForeground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/icon_delete"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/search_item_category"
+        app:layout_constraintTop_toBottomOf="@+id/search_item_name"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Short Note" />
+
+    <TextView
+        android:id="@+id/search_item_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        tools:text="Type/Category"
+        android:textColor="@color/colorWhite"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/search_item_category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_item_category"
+        app:srcCompat="@drawable/ic_baseline_delete_24"
+        app:tint="@color/colorPrimary" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:background="@color/myColorBackground">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/search_item_name"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginVertical="@dimen/_dp12"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:fontFamily="@font/sf_pro_display_regular"-->
+    <!--        android:textColor="@color/colorBlack"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/icon_delete"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        tools:text="Name" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/search_item_data"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:textColor="@color/myColorForeground"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/icon_delete"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/search_item_category"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/search_item_name"-->
+    <!--        app:layout_constraintVertical_bias="0.0"-->
+    <!--        tools:text="Short Note" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/search_item_category"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="15dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:textColor="@color/colorWhite"-->
+    <!--        android:textSize="13sp"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:text="Type/Category" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/icon_delete"-->
+    <!--        android:layout_width="@dimen/_dp30"-->
+    <!--        android:layout_height="@dimen/_dp30"-->
+    <!--        android:layout_marginEnd="15dp"-->
+    <!--        android:padding="8dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/search_item_name"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/search_item_name"-->
+    <!--        app:srcCompat="@drawable/ic_bookmark_red_asset" />-->
+
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_height="0.5dp"-->
+    <!--        android:background="@color/myColorDarkGray"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

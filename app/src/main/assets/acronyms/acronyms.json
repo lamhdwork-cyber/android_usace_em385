@@ -1,0 +1,2042 @@
+[
+  {
+    "name": "3 Rs",
+    "definition": "Recognize, Retreat, Report",
+    "status": 0
+  },
+  {
+    "name": "A2B",
+    "definition": "Anti-Two Block",
+    "status": 0
+  },
+  {
+    "name": "A2LA",
+    "definition": "American Association of Laboratory Accreditation",
+    "status": 2
+  },
+  {
+    "name": "AAUS",
+    "definition": "American Academy of Underwater Scientists",
+    "status": 0
+  },
+  {
+    "name": "ABS",
+    "definition": "American Bureau of Shipping",
+    "status": 0
+  },
+  {
+    "name": "ABYC",
+    "definition": "American Boat and Yacht Council",
+    "status": 2
+  },
+  {
+    "name": "ACDE",
+    "definition": "Association of Commercial Diving Educators",
+    "status": 0
+  },
+  {
+    "name": "ACGIH",
+    "definition": "American Conference of Governmental Industrial Hygienists",
+    "status": 0
+  },
+  {
+    "name": "ACI",
+    "definition": "American Concrete Institute",
+    "status": 0
+  },
+  {
+    "name": "ACM",
+    "definition": "Asbestos-Containing Material",
+    "status": 0
+  },
+  {
+    "name": "ADC",
+    "definition": "Alternate Dive Coordinator",
+    "status": 2
+  },
+  {
+    "name": "ADC",
+    "definition": "Association of Diving Contractors",
+    "status": 0
+  },
+  {
+    "name": "ADCI",
+    "definition": "Association of Diving Contractors International",
+    "status": 0
+  },
+  {
+    "name": "AED",
+    "definition": "Automatic External Defibrillator",
+    "status": 0
+  },
+  {
+    "name": "AEGCP",
+    "definition": "Assured Equipment Grounding Conductor Program",
+    "status": 0
+  },
+  {
+    "name": "AFFF",
+    "definition": "Aqueous Film Foaming Foam",
+    "status": 0
+  },
+  {
+    "name": "AGA",
+    "definition": "American Gas Association",
+    "status": 0
+  },
+  {
+    "name": "AHA",
+    "definition": "Activity Hazard Analysis/Analyses",
+    "status": 0
+  },
+  {
+    "name": "AHA",
+    "definition": "American Heart Association",
+    "status": 0
+  },
+  {
+    "name": "AIHA",
+    "definition": "American Industrial Hygiene Association",
+    "status": 0
+  },
+  {
+    "name": "ALARA",
+    "definition": "As Low As Reasonably Achievable",
+    "status": 0
+  },
+  {
+    "name": "ALI",
+    "definition": "American Ladder Institute",
+    "status": 2
+  },
+  {
+    "name": "ALI",
+    "definition": "Annual Limits on Intake",
+    "status": 0
+  },
+  {
+    "name": "AN",
+    "definition": "As Needed",
+    "status": 2
+  },
+  {
+    "name": "ANSI",
+    "definition": "American National Standards Institute",
+    "status": 0
+  },
+  {
+    "name": "AOA",
+    "definition": "Airfield Operations Area",
+    "status": 2
+  },
+  {
+    "name": "APF",
+    "definition": "Assigned Protection Factor",
+    "status": 0
+  },
+  {
+    "name": "API",
+    "definition": "American Petroleum Institute",
+    "status": 0
+  },
+  {
+    "name": "APP",
+    "definition": "Accident Prevention Plan",
+    "status": 0
+  },
+  {
+    "name": "AR",
+    "definition": "As Required",
+    "status": 2
+  },
+  {
+    "name": "AR",
+    "definition": "Army Regulation",
+    "status": 0
+  },
+  {
+    "name": "ARA",
+    "definition": "Army Radiation Authorization",
+    "status": 0
+  },
+  {
+    "name": "ARC",
+    "definition": "American Red Cross",
+    "status": 0
+  },
+  {
+    "name": "ASCE",
+    "definition": "American Society of Civil Engineers",
+    "status": 0
+  },
+  {
+    "name": "ASHRAE",
+    "definition": "American Society of Heating, Refrigeration, and Air-Conditioning Engineers",
+    "status": 0
+  },
+  {
+    "name": "ASME",
+    "definition": "American Society of Mechanical Engineers",
+    "status": 0
+  },
+  {
+    "name": "ASP",
+    "definition": "Associate Safety Professional",
+    "status": 0
+  },
+  {
+    "name": "ASSE",
+    "definition": "American Society of Safety Engineers",
+    "status": 0
+  },
+  {
+    "name": "ASTM",
+    "definition": "American Society for Testing and Materials",
+    "status": 0
+  },
+  {
+    "name": "ATC",
+    "definition": "Air Traffic Controller",
+    "status": 2
+  },
+  {
+    "name": "ATV",
+    "definition": "All-Terrain Vehicles",
+    "status": 0
+  },
+  {
+    "name": "Aux.",
+    "definition": "Auxiliary",
+    "status": 2
+  },
+  {
+    "name": "AWG",
+    "definition": "American Wire Gauge",
+    "status": 0
+  },
+  {
+    "name": "AWP",
+    "definition": "Aerial Work Platforms",
+    "status": 0
+  },
+  {
+    "name": "AWS",
+    "definition": "American Welding Society",
+    "status": 0
+  },
+  {
+    "name": "BBP",
+    "definition": "Blood-Borne Pathogen",
+    "status": 2
+  },
+  {
+    "name": "BCD",
+    "definition": "Buoyancy Compensation Device",
+    "status": 0
+  },
+  {
+    "name": "BCSP",
+    "definition": "Board of Certified Safety Professionals",
+    "status": 0
+  },
+  {
+    "name": "BRAC",
+    "definition": "Base Realignment and Closure",
+    "status": 0
+  },
+  {
+    "name": "Btu",
+    "definition": "British Thermal Units",
+    "status": 0
+  },
+  {
+    "name": "C&D",
+    "definition": "Construction & Debris",
+    "status": 2
+  },
+  {
+    "name": "CA",
+    "definition": "Chemical Agent",
+    "status": 0
+  },
+  {
+    "name": "CAIS",
+    "definition": "Chemical Agent Identification Set",
+    "status": 0
+  },
+  {
+    "name": "Cd",
+    "definition": "Conductive Footwear",
+    "status": 0
+  },
+  {
+    "name": "CDC",
+    "definition": "Centers for Disease Control",
+    "status": 0
+  },
+  {
+    "name": "CDSO",
+    "definition": "Collateral Duty Safety Officer",
+    "status": 2
+  },
+  {
+    "name": "CDZ",
+    "definition": "Controlled Decking Zone",
+    "status": 0
+  },
+  {
+    "name": "CERCLA",
+    "definition": "Comprehensive Environmental Response, Compensation, and Liability Act",
+    "status": 0
+  },
+  {
+    "name": "cfm",
+    "definition": "Cubic Feet Per Minute",
+    "status": 0
+  },
+  {
+    "name": "CFR",
+    "definition": "Code of Federal Regulations",
+    "status": 0
+  },
+  {
+    "name": "CFS",
+    "definition": "Chemical Fire Suppression",
+    "status": 2
+  },
+  {
+    "name": "CG",
+    "definition": "Chemical Agent-Phosgene or Carbonyl Dichloride",
+    "status": 0
+  },
+  {
+    "name": "CGA",
+    "definition": "Compressed Gas Association",
+    "status": 0
+  },
+  {
+    "name": "CHP",
+    "definition": "Certified Health Physicist",
+    "status": 0
+  },
+  {
+    "name": "CHST",
+    "definition": "Certified Construction Health and Safety Technician",
+    "status": 0
+  },
+  {
+    "name": "CIH",
+    "definition": "Certified Industrial Hygienist",
+    "status": 0
+  },
+  {
+    "name": "CLP",
+    "definition": "Critical Lift Plan",
+    "status": 2
+  },
+  {
+    "name": "cm",
+    "definition": "Centimeter",
+    "status": 0
+  },
+  {
+    "name": "cm2",
+    "definition": "Square Centimeter",
+    "status": 0
+  },
+  {
+    "name": "CMAA",
+    "definition": "Crane Manufacturer’s Association of America",
+    "status": 0
+  },
+  {
+    "name": "CO2",
+    "definition": "Carbon Dioxide",
+    "status": 0
+  },
+  {
+    "name": "CO",
+    "definition": "Carbon Monoxide",
+    "status": 0
+  },
+  {
+    "name": "COG",
+    "definition": "Center of Gravity",
+    "status": 2
+  },
+  {
+    "name": "CONUS",
+    "definition": "Continental United States",
+    "status": 0
+  },
+  {
+    "name": "COR",
+    "definition": "Contracting Officer’s Representative",
+    "status": 0
+  },
+  {
+    "name": "CP",
+    "definition": "Competent Person",
+    "status": 2
+  },
+  {
+    "name": "CPCSSV",
+    "definition": "Competent Person for Confined Spaces on Ships and Vessels",
+    "status": 0
+  },
+  {
+    "name": "CPR",
+    "definition": "Cardiopulmonary Resuscitation",
+    "status": 0
+  },
+  {
+    "name": "CRZ",
+    "definition": "Contamination Reduction Zone",
+    "status": 0
+  },
+  {
+    "name": "CS",
+    "definition": "Riot Control Agent",
+    "status": 0
+  },
+  {
+    "name": "CSCP",
+    "definition": "Confined Space Competent Person",
+    "status": 0
+  },
+  {
+    "name": "CSE",
+    "definition": "Confined Space Entry",
+    "status": 2
+  },
+  {
+    "name": "CSMP",
+    "definition": "Cold Stress Management Plan",
+    "status": 2
+  },
+  {
+    "name": "CSP",
+    "definition": "Certified Safety Professional",
+    "status": 0
+  },
+  {
+    "name": "CSPP",
+    "definition": "Construction Safety and Phasing Plan",
+    "status": 2
+  },
+  {
+    "name": "CSTS",
+    "definition": "Certified Safety Trained Supervisor",
+    "status": 0
+  },
+  {
+    "name": "CSWI",
+    "definition": "Senior Certified Welding Inspector",
+    "status": 2
+  },
+  {
+    "name": "CTSP",
+    "definition": "Certified Tree Care Safety Professional",
+    "status": 2
+  },
+  {
+    "name": "CUSP",
+    "definition": "Certified Utility Safety Professional",
+    "status": 2
+  },
+  {
+    "name": "CWI",
+    "definition": "Certified Welding Inspector",
+    "status": 0
+  },
+  {
+    "name": "CWM",
+    "definition": "Chemical Warfare Materiel",
+    "status": 0
+  },
+  {
+    "name": "DA",
+    "definition": "Department of the Army",
+    "status": 0
+  },
+  {
+    "name": "DA Pam",
+    "definition": "Department of the Army Pamphlet",
+    "status": 0
+  },
+  {
+    "name": "DAC",
+    "definition": "derived air concentration",
+    "status": 0
+  },
+  {
+    "name": "dB",
+    "definition": "decibel",
+    "status": 0
+  },
+  {
+    "name": "dB(A)",
+    "definition": "decibels A-weighed",
+    "status": 0
+  },
+  {
+    "name": "°C",
+    "definition": "degrees Celsius",
+    "status": 0
+  },
+  {
+    "name": "°F",
+    "definition": "degrees Fahrenheit",
+    "status": 0
+  },
+  {
+    "name": "DAN",
+    "definition": "Divers Alert Network",
+    "status": 0
+  },
+  {
+    "name": "DDC",
+    "definition": "District Diving Coordinator",
+    "status": 0
+  },
+  {
+    "name": "DEMA",
+    "definition": "Dive Equipment Manufacturer’s Association",
+    "status": 2
+  },
+  {
+    "name": "DFARS",
+    "definition": "Defense Federal Acquisition Regulation Supplement",
+    "status": 0
+  },
+  {
+    "name": "DFOW",
+    "definition": "Definable Feature of Work",
+    "status": 2
+  },
+  {
+    "name": "DMM",
+    "definition": "Discarded Military Munitions",
+    "status": 0
+  },
+  {
+    "name": "D.O.",
+    "definition": "Doctor of Osteopathy",
+    "status": 2
+  },
+  {
+    "name": "DOD",
+    "definition": "Department of Defense",
+    "status": 0
+  },
+  {
+    "name": "DODI",
+    "definition": "Department of Defense Instruction",
+    "status": 0
+  },
+  {
+    "name": "DOE",
+    "definition": "Department of Energy",
+    "status": 0
+  },
+  {
+    "name": "DOT",
+    "definition": "Department of Transportation",
+    "status": 0
+  },
+  {
+    "name": "DR",
+    "definition": "Designated Representative",
+    "status": 2
+  },
+  {
+    "name": "DSR",
+    "definition": "Dive Safety Representative",
+    "status": 0
+  },
+  {
+    "name": "EANx",
+    "definition": "Nitrox Gas",
+    "status": 0
+  },
+  {
+    "name": "ECC",
+    "definition": "Emergency Cardiovascular Care",
+    "status": 2
+  },
+  {
+    "name": "ECP",
+    "definition": "Entry Control Point",
+    "status": 0
+  },
+  {
+    "name": "ELSA",
+    "definition": "Emergency Life Support Apparatus",
+    "status": 0
+  },
+  {
+    "name": "EM",
+    "definition": "Engineering Manual",
+    "status": 0
+  },
+  {
+    "name": "EMR",
+    "definition": "Electromagnetic Radiation",
+    "status": 0
+  },
+  {
+    "name": "EMR",
+    "definition": "Experience Modification Rate",
+    "status": 0
+  },
+  {
+    "name": "EMS",
+    "definition": "Emergency Medical Services",
+    "status": 0
+  },
+  {
+    "name": "EMT",
+    "definition": "Emergency Medical Technician",
+    "status": 0
+  },
+  {
+    "name": "EO",
+    "definition": "Executive Order",
+    "status": 0
+  },
+  {
+    "name": "EOD",
+    "definition": "Explosive Ordnance Disposal",
+    "status": 0
+  },
+  {
+    "name": "EP",
+    "definition": "Engineering Pamphlet",
+    "status": 0
+  },
+  {
+    "name": "EPA",
+    "definition": "Environmental Protection Agency",
+    "status": 0
+  },
+  {
+    "name": "ER",
+    "definition": "Energy Ratio",
+    "status": 2
+  },
+  {
+    "name": "ER",
+    "definition": "Engineering Regulation",
+    "status": 0
+  },
+  {
+    "name": "ERP",
+    "definition": "Emergency Response Plan",
+    "status": 0
+  },
+  {
+    "name": "ERT",
+    "definition": "Emergency Response Team",
+    "status": 0
+  },
+  {
+    "name": "ESLI",
+    "definition": "End-Of-Service Life Indicator",
+    "status": 0
+  },
+  {
+    "name": "ESSP",
+    "definition": "Explosives Safety Site Plan",
+    "status": 2
+  },
+  {
+    "name": "ETS",
+    "definition": "Environmental Tobacco Smoke",
+    "status": 0
+  },
+  {
+    "name": "EZ",
+    "definition": "Exclusion Zone",
+    "status": 0
+  },
+  {
+    "name": "FAA",
+    "definition": "Federal Aviation Administration",
+    "status": 0
+  },
+  {
+    "name": "FAR",
+    "definition": "Federal Acquisition Regulation",
+    "status": 0
+  },
+  {
+    "name": "fc",
+    "definition": "footcandle",
+    "status": 0
+  },
+  {
+    "name": "FCAW",
+    "definition": "Flux Cored Arc Welding",
+    "status": 0
+  },
+  {
+    "name": "FDA",
+    "definition": "Food and Drug Administration",
+    "status": 0
+  },
+  {
+    "name": "FEV(1)",
+    "definition": "Forced Expiratory Volume at 1 Second",
+    "status": 0
+  },
+  {
+    "name": "FF",
+    "definition": "Free Fall",
+    "status": 2
+  },
+  {
+    "name": "FGS",
+    "definition": "Final Governing Standards",
+    "status": 0
+  },
+  {
+    "name": "FM",
+    "definition": "Field Manual",
+    "status": 0
+  },
+  {
+    "name": "FMP",
+    "definition": "Fatigue Management Plan",
+    "status": 2
+  },
+  {
+    "name": "FOA",
+    "definition": "Field Operating Activities",
+    "status": 0
+  },
+  {
+    "name": "FOB",
+    "definition": "Foreign Object Debris",
+    "status": 2
+  },
+  {
+    "name": "FOPS",
+    "definition": "Falling Object Protective Structures",
+    "status": 0
+  },
+  {
+    "name": "FP",
+    "definition": "Fall Protection",
+    "status": 2
+  },
+  {
+    "name": "FRP",
+    "definition": "Fiberglass-Reinforced Plastic",
+    "status": 0
+  },
+  {
+    "name": "ft",
+    "definition": "foot",
+    "status": 0
+  },
+  {
+    "name": "ft3",
+    "definition": "cubic foot",
+    "status": 0
+  },
+  {
+    "name": "ft2",
+    "definition": "square foot",
+    "status": 0
+  },
+  {
+    "name": "ft/min",
+    "definition": "feet per minute",
+    "status": 0
+  },
+  {
+    "name": "FPM",
+    "definition": "feet per minute",
+    "status": 2
+  },
+  {
+    "name": "FUDS",
+    "definition": "Formerly Used Defense Sites",
+    "status": 0
+  },
+  {
+    "name": "FUSRAP",
+    "definition": "Formerly Used Sites Remedial Action Program",
+    "status": 0
+  },
+  {
+    "name": "FVC",
+    "definition": "Forced Vital Capacity",
+    "status": 0
+  },
+  {
+    "name": "gal",
+    "definition": "gallon",
+    "status": 0
+  },
+  {
+    "name": "GDA",
+    "definition": "Government Designated Authority",
+    "status": 0
+  },
+  {
+    "name": "GFCI",
+    "definition": "Ground Fault Circuit Interrupter",
+    "status": 0
+  },
+  {
+    "name": "GFR",
+    "definition": "Government Flight Representative",
+    "status": 2
+  },
+  {
+    "name": "GMAW",
+    "definition": "Gas Metal Arc Welding",
+    "status": 0
+  },
+  {
+    "name": "GOCO",
+    "definition": "Government-Owned Contractor-Operated",
+    "status": 2
+  },
+  {
+    "name": "GOGO",
+    "definition": "Government-Owned Government-Operated",
+    "status": 2
+  },
+  {
+    "name": "GPS",
+    "definition": "Global Positioning Satellite",
+    "status": 2
+  },
+  {
+    "name": "GPTC",
+    "definition": "Gas Piping Technology Committee",
+    "status": 0
+  },
+  {
+    "name": "Gy",
+    "definition": "Gray",
+    "status": 2
+  },
+  {
+    "name": "H",
+    "definition": "Chemical Agent-Mustard",
+    "status": 0
+  },
+  {
+    "name": "H-3",
+    "definition": "Tritium",
+    "status": 0
+  },
+  {
+    "name": "HAV",
+    "definition": "Hepatitis A Virus",
+    "status": 0
+  },
+  {
+    "name": "HAV",
+    "definition": "Hand-Arm Vibration",
+    "status": 2
+  },
+  {
+    "name": "HAZCOM",
+    "definition": "Hazardous Communication",
+    "status": 0
+  },
+  {
+    "name": "HAZMAT",
+    "definition": "Hazardous Material",
+    "status": 2
+  },
+  {
+    "name": "HAZWOPER",
+    "definition": "Hazardous Waste Operations and Emergency Response",
+    "status": 0
+  },
+  {
+    "name": "HBV",
+    "definition": "Hepatitis B Virus",
+    "status": 0
+  },
+  {
+    "name": "HCP",
+    "definition": "Hearing Conservation Program",
+    "status": 2
+  },
+  {
+    "name": "HCV",
+    "definition": "Hepatitis C Virus",
+    "status": 0
+  },
+  {
+    "name": "HD",
+    "definition": "Chemical Agent-Distilled Mustard",
+    "status": 0
+  },
+  {
+    "name": "HE",
+    "definition": "High Explosives",
+    "status": 0
+  },
+  {
+    "name": "HEC",
+    "definition": "Hazardous Energy Control",
+    "status": 2
+  },
+  {
+    "name": "HECP",
+    "definition": "Hazardous Energy Control Program",
+    "status": 0
+  },
+  {
+    "name": "HEPA",
+    "definition": "High Efficiency Particulate Air",
+    "status": 0
+  },
+  {
+    "name": "HHWG",
+    "definition": "High Hazard Working Group",
+    "status": 2
+  },
+  {
+    "name": "HIV",
+    "definition": "Human Immuno-Deficiency Virus",
+    "status": 0
+  },
+  {
+    "name": "HLL",
+    "definition": "Horizontal Life Line",
+    "status": 0
+  },
+  {
+    "name": "hp",
+    "definition": "horsepower",
+    "status": 0
+  },
+  {
+    "name": "HQUSACE",
+    "definition": "Headquarters, U.S. Army Corps of Engineers",
+    "status": 0
+  },
+  {
+    "name": "HSMP",
+    "definition": "Heat Stress Management Plan",
+    "status": 2
+  },
+  {
+    "name": "HT",
+    "definition": "Human Transporter",
+    "status": 2
+  },
+  {
+    "name": "HTRW",
+    "definition": "Hazardous, Toxic, and Radioactive Waste",
+    "status": 0
+  },
+  {
+    "name": "HVAC",
+    "definition": "Heating, Ventilation, and Air Conditioning",
+    "status": 0
+  },
+  {
+    "name": "HS",
+    "definition": "Chemical Agent-Mustard",
+    "status": 0
+  },
+  {
+    "name": "Hz",
+    "definition": "Hertz",
+    "status": 0
+  },
+  {
+    "name": "IAQ",
+    "definition": "Indoor Air Quality",
+    "status": 0
+  },
+  {
+    "name": "IAW",
+    "definition": "In Accordance With",
+    "status": 2
+  },
+  {
+    "name": "IDLH",
+    "definition": "Immediately Dangerous To Life and Health",
+    "status": 0
+  },
+  {
+    "name": "IEEE",
+    "definition": "Institute of Electrical and Electronics Engineers",
+    "status": 0
+  },
+  {
+    "name": "IESNA",
+    "definition": "Illuminating Engineering Society of North America",
+    "status": 0
+  },
+  {
+    "name": "ILO",
+    "definition": "International Labor Office",
+    "status": 0
+  },
+  {
+    "name": "IME",
+    "definition": "Institute of Makers of Explosives",
+    "status": 0
+  },
+  {
+    "name": "in",
+    "definition": "inch",
+    "status": 0
+  },
+  {
+    "name": "in2",
+    "definition": "square inch",
+    "status": 0
+  },
+  {
+    "name": "IRP",
+    "definition": "Installation Restoration Program",
+    "status": 0
+  },
+  {
+    "name": "IRSC",
+    "definition": "Ionizing Radiation Safety Committee",
+    "status": 0
+  },
+  {
+    "name": "ISEA",
+    "definition": "International Safety Equipment Association",
+    "status": 0
+  },
+  {
+    "name": "ISO",
+    "definition": "International Organization of Standardization",
+    "status": 0
+  },
+  {
+    "name": "kA",
+    "definition": "kiloAmp",
+    "status": 0
+  },
+  {
+    "name": "kg",
+    "definition": "kilogram",
+    "status": 0
+  },
+  {
+    "name": "kHz",
+    "definition": "kiloHertz",
+    "status": 0
+  },
+  {
+    "name": "km",
+    "definition": "kilometers",
+    "status": 0
+  },
+  {
+    "name": "kN",
+    "definition": "kiloNewton",
+    "status": 0
+  },
+  {
+    "name": "KO",
+    "definition": "Contracting Officer",
+    "status": 2
+  },
+  {
+    "name": "kPa",
+    "definition": "kiloPascal",
+    "status": 0
+  },
+  {
+    "name": "kV",
+    "definition": "kiloVolt",
+    "status": 0
+  },
+  {
+    "name": "lb",
+    "definition": "pound",
+    "status": 0
+  },
+  {
+    "name": "L",
+    "definition": "liter",
+    "status": 0
+  },
+  {
+    "name": "LBD",
+    "definition": "Lead-Based Paint",
+    "status": 0
+  },
+  {
+    "name": "LCD",
+    "definition": "Ladder Climbing Devices",
+    "status": 1
+  },
+  {
+    "name": "LEL",
+    "definition": "Lower Explosive Limit",
+    "status": 0
+  },
+  {
+    "name": "LFL",
+    "definition": "Lower Flammable Limit",
+    "status": 0
+  },
+  {
+    "name": "LHE",
+    "definition": "Load Handling Equipment",
+    "status": 2
+  },
+  {
+    "name": "LID",
+    "definition": "Load Indicating Device",
+    "status": 0
+  },
+  {
+    "name": "LLD",
+    "definition": "Load Limiting Device",
+    "status": 0
+  },
+  {
+    "name": "lm",
+    "definition": "lumens",
+    "status": 0
+  },
+  {
+    "name": "LMI",
+    "definition": "Load Moment Indicating",
+    "status": 0
+  },
+  {
+    "name": "LNP",
+    "definition": "Licensed Nurse Practitioner",
+    "status": 2
+  },
+  {
+    "name": "LOTO",
+    "definition": "Lockout/Tagout",
+    "status": 2
+  },
+  {
+    "name": "LP-Gas",
+    "definition": "Liquefied Petroleum Gas",
+    "status": 0
+  },
+  {
+    "name": "LP",
+    "definition": "Licensed Physician",
+    "status": 0
+  },
+  {
+    "name": "LPA",
+    "definition": "Licensed Physician’s Assistant",
+    "status": 0
+  },
+  {
+    "name": "LPN",
+    "definition": "Licensed Practical Nurse",
+    "status": 0
+  },
+  {
+    "name": "L/s",
+    "definition": "liters per second",
+    "status": 0
+  },
+  {
+    "name": "lx",
+    "definition": "Lux",
+    "status": 0
+  },
+  {
+    "name": "m",
+    "definition": "meter",
+    "status": 0
+  },
+  {
+    "name": "M²S²",
+    "definition": "Military Munitions Support Services",
+    "status": 0
+  },
+  {
+    "name": "m³",
+    "definition": "cubic meter",
+    "status": 0
+  },
+  {
+    "name": "m²",
+    "definition": "square meter",
+    "status": 0
+  },
+  {
+    "name": "MC",
+    "definition": "Metal-Clad Cable",
+    "status": 0
+  },
+  {
+    "name": "MC",
+    "definition": "Munitions Constituents",
+    "status": 0
+  },
+  {
+    "name": "MCRP",
+    "definition": "Marine Corps Reference Publication",
+    "status": 0
+  },
+  {
+    "name": "MCWP",
+    "definition": "Mast Climbing Work Platform",
+    "status": 2
+  },
+  {
+    "name": "MD",
+    "definition": "Medical Doctor",
+    "status": 2
+  },
+  {
+    "name": "MEC",
+    "definition": "munitions and explosives of concern",
+    "status": 0
+  },
+  {
+    "name": "mg",
+    "definition": "milligram",
+    "status": 0
+  },
+  {
+    "name": "mi",
+    "definition": "miles",
+    "status": 0
+  },
+  {
+    "name": "MILCON",
+    "definition": "Military Construction",
+    "status": 0
+  },
+  {
+    "name": "MIL-STD",
+    "definition": "Military Standard",
+    "status": 0
+  },
+  {
+    "name": "MLR",
+    "definition": "Multiple Lift Rigging",
+    "status": 2
+  },
+  {
+    "name": "MM",
+    "definition": "Military Munitions",
+    "status": 0
+  },
+  {
+    "name": "mm",
+    "definition": "millimeters",
+    "status": 0
+  },
+  {
+    "name": "MMAD",
+    "definition": "Mass Median Aerodynamic Diameters",
+    "status": 0
+  },
+  {
+    "name": "MOA",
+    "definition": "Memorandum of Agreement",
+    "status": 0
+  },
+  {
+    "name": "MOOTW",
+    "definition": "Military Operations Other Than War",
+    "status": 0
+  },
+  {
+    "name": "MOU",
+    "definition": "Memorandum of Understanding",
+    "status": 0
+  },
+  {
+    "name": "mph",
+    "definition": "miles per hour",
+    "status": 0
+  },
+  {
+    "name": "mrem",
+    "definition": "millirems",
+    "status": 0
+  },
+  {
+    "name": "MRS",
+    "definition": "Munitions Response Site",
+    "status": 0
+  },
+  {
+    "name": "m/s",
+    "definition": "meters per second",
+    "status": 0
+  },
+  {
+    "name": "MSC",
+    "definition": "Major Subordinate Command",
+    "status": 0
+  },
+  {
+    "name": "MSDS",
+    "definition": "Material Safety Data Sheet",
+    "status": 0
+  },
+  {
+    "name": "MSHA",
+    "definition": "Mine Safety and Health Administration",
+    "status": 0
+  },
+  {
+    "name": "MSS",
+    "definition": "Motion Stopping Safety System",
+    "status": 0
+  },
+  {
+    "name": "MT",
+    "definition": "metric ton",
+    "status": 0
+  },
+  {
+    "name": "MUTCD",
+    "definition": "Manual on Uniform Traffic Control Devices for Streets and Highways",
+    "status": 0
+  },
+  {
+    "name": "uSv",
+    "definition": "microsieverts",
+    "status": 0
+  },
+  {
+    "name": "mSv",
+    "definition": "millisieverts",
+    "status": 0
+  },
+  {
+    "name": "MVA",
+    "definition": "megavolt-amperes",
+    "status": 0
+  },
+  {
+    "name": "NAMS",
+    "definition": "National Association of Marine Surveyors",
+    "status": 0
+  },
+  {
+    "name": "NASBLA",
+    "definition": "National Association of Safe Boating Law Administrators",
+    "status": 0
+  },
+  {
+    "name": "NAUI",
+    "definition": "National Association of Underwater Instructors",
+    "status": 0
+  },
+  {
+    "name": "NAVFAC",
+    "definition": "Naval Facilities",
+    "status": 0
+  },
+  {
+    "name": "NAVMED",
+    "definition": "Navy Medical",
+    "status": 0
+  },
+  {
+    "name": "NAVSEA",
+    "definition": "Naval Sea Systems Command",
+    "status": 0
+  },
+  {
+    "name": "NBBI",
+    "definition": "National Board of Boiler and Pressure Vessel Inspectors",
+    "status": 0
+  },
+  {
+    "name": "NCCA",
+    "definition": "National Commission for Certifying Agencies",
+    "status": 2
+  },
+  {
+    "name": "NEC",
+    "definition": "National Electrical Code",
+    "status": 0
+  },
+  {
+    "name": "NEMA",
+    "definition": "National Electrical Manufacturers Association",
+    "status": 0
+  },
+  {
+    "name": "NESC",
+    "definition": "National Electrical Safety Code",
+    "status": 0
+  },
+  {
+    "name": "NESHAP",
+    "definition": "National Emissions Standards for Hazardous Air Pollutants",
+    "status": 0
+  },
+  {
+    "name": "NFPA",
+    "definition": "National Fire Protection Association",
+    "status": 0
+  },
+  {
+    "name": "NIOSH",
+    "definition": "National Institute for Occupational Safety and Health",
+    "status": 0
+  },
+  {
+    "name": "NIST",
+    "definition": "National Institute of Standards and Technology",
+    "status": 0
+  },
+  {
+    "name": "NMFC",
+    "definition": "National Motor Freight Classification",
+    "status": 0
+  },
+  {
+    "name": "NOAA",
+    "definition": "National Oceanic and Atmospheric Administration",
+    "status": 0
+  },
+  {
+    "name": "NOTAM",
+    "definition": "Notice to Airmen",
+    "status": 2
+  },
+  {
+    "name": "NPDWR",
+    "definition": "National Primary Drinking Water Regulation",
+    "status": 0
+  },
+  {
+    "name": "NPRCS",
+    "definition": "non-permit required confined space",
+    "status": 0
+  },
+  {
+    "name": "NRC",
+    "definition": "Nuclear Regulatory Commission",
+    "status": 0
+  },
+  {
+    "name": "NREMT",
+    "definition": "Nationally Registered Emergency Medical Technician",
+    "status": 0
+  },
+  {
+    "name": "NRR",
+    "definition": "noise reduction rating",
+    "status": 0
+  },
+  {
+    "name": "NSC",
+    "definition": "National Safety Council",
+    "status": 0
+  },
+  {
+    "name": "NVLAP",
+    "definition": "National Voluntary Laboratory Accreditation Program",
+    "status": 0
+  },
+  {
+    "name": "OCONUS",
+    "definition": "Outside Continental United States/Overseas",
+    "status": 0
+  },
+  {
+    "name": "OE",
+    "definition": "Ordnance and Explosives",
+    "status": 0
+  },
+  {
+    "name": "OEA",
+    "definition": "Oxygen Enriched Air",
+    "status": 0
+  },
+  {
+    "name": "OEBGD",
+    "definition": "Overseas Environmental Baseline Guidance Document",
+    "status": 0
+  },
+  {
+    "name": "OEHS",
+    "definition": "Occupational, Environmental, Health, and Safety",
+    "status": 2
+  },
+  {
+    "name": "OEL",
+    "definition": "Occupational Exposure Limit",
+    "status": 0
+  },
+  {
+    "name": "OEM",
+    "definition": "Original Equipment Manufacturer",
+    "status": 0
+  },
+  {
+    "name": "OF",
+    "definition": "Optional Form",
+    "status": 2
+  },
+  {
+    "name": "OJT",
+    "definition": "On-The-Job Training",
+    "status": 0
+  },
+  {
+    "name": "OPORD",
+    "definition": "Operations Order",
+    "status": 2
+  },
+  {
+    "name": "ORM",
+    "definition": "Other Regulated Material",
+    "status": 2
+  },
+  {
+    "name": "OSHA",
+    "definition": "Occupational Safety and Health Administration",
+    "status": 0
+  },
+  {
+    "name": "Pa",
+    "definition": "pascal",
+    "status": 0
+  },
+  {
+    "name": "PA",
+    "definition": "Physician’s Assistant (licensed and/or registered)",
+    "status": 0
+  },
+  {
+    "name": "PA-C",
+    "definition": "Licensed, Physician’s Assistant",
+    "status": 2
+  },
+  {
+    "name": "PADI",
+    "definition": "Professional Association of Diving Instructors",
+    "status": 0
+  },
+  {
+    "name": "PAN",
+    "definition": "preliminary accident notification",
+    "status": 0
+  },
+  {
+    "name": "PAPR",
+    "definition": "powered-air purifying respirator",
+    "status": 0
+  },
+  {
+    "name": "PCB",
+    "definition": "polychlorinated biphenyls",
+    "status": 0
+  },
+  {
+    "name": "pCi/L",
+    "definition": "picocuries per liter",
+    "status": 0
+  },
+  {
+    "name": "PDT",
+    "definition": "project delivery team",
+    "status": 0
+  },
+  {
+    "name": "PEL",
+    "definition": "permissible exposure limit",
+    "status": 0
+  },
+  {
+    "name": "PFAS",
+    "definition": "Personal Fall Arrest System",
+    "status": 2
+  },
+  {
+    "name": "PFD",
+    "definition": "personal floatation device",
+    "status": 0
+  },
+  {
+    "name": "PHA",
+    "definition": "position hazard analysis",
+    "status": 0
+  },
+  {
+    "name": "PIT",
+    "definition": "powered industrial truck",
+    "status": 0
+  },
+  {
+    "name": "PLHCP",
+    "definition": "Physician-Licensed Healthcare Professional",
+    "status": 0
+  },
+  {
+    "name": "POC",
+    "definition": "Point of Contact",
+    "status": 0
+  },
+  {
+    "name": "PM",
+    "definition": "Project Manager",
+    "status": 0
+  },
+  {
+    "name": "PMP",
+    "definition": "Project Management Plan",
+    "status": 0
+  },
+  {
+    "name": "POL",
+    "definition": "petroleum, oil, and lubricants",
+    "status": 0
+  },
+  {
+    "name": "PPE",
+    "definition": "personal protective equipment",
+    "status": 0
+  },
+  {
+    "name": "ppm",
+    "definition": "parts per million",
+    "status": 0
+  },
+  {
+    "name": "PRCS",
+    "definition": "permit-required confined spaces",
+    "status": 0
+  },
+  {
+    "name": "PrgMP",
+    "definition": "Program Management Plan",
+    "status": 0
+  },
+  {
+    "name": "PRT",
+    "definition": "Planning and Response Teams",
+    "status": 0
+  },
+  {
+    "name": "PS",
+    "definition": "chemical agent-Chloropicrin",
+    "status": 0
+  },
+  {
+    "name": "psf",
+    "definition": "pounds per square foot",
+    "status": 0
+  },
+  {
+    "name": "psi",
+    "definition": "per square inch",
+    "status": 0
+  },
+  {
+    "name": "psia",
+    "definition": "per square inch absolute",
+    "status": 0
+  },
+  {
+    "name": "PV",
+    "definition": "Particle Velocity",
+    "status": 2
+  },
+  {
+    "name": "QA",
+    "definition": "quality assurance",
+    "status": 0
+  },
+  {
+    "name": "QASP",
+    "definition": "Quality Assurance Surveillance Plan",
+    "status": 0
+  },
+  {
+    "name": "QC",
+    "definition": "quality control",
+    "status": 0
+  },
+  {
+    "name": "QCP",
+    "definition": "Quality Control Plan",
+    "status": 0
+  },
+  {
+    "name": "QCS",
+    "definition": "Quality Control Supervisor",
+    "status": 0
+  },
+  {
+    "name": "QLFT",
+    "definition": "qualitative fit test",
+    "status": 0
+  },
+  {
+    "name": "QNFT",
+    "definition": "quantitative fit test",
+    "status": 0
+  },
+  {
+    "name": "QP",
+    "definition": "Qualified Person",
+    "status": 2
+  },
+  {
+    "name": "QR",
+    "definition": "Qualified Rigger",
+    "status": 2
+  },
+  {
+    "name": "R&D",
+    "definition": "Research & Development",
+    "status": 2
+  },
+  {
+    "name": "RAC",
+    "definition": "Risk Assessment Code",
+    "status": 0
+  },
+  {
+    "name": "RCRA",
+    "definition": "Resource Conservation and Recovery Act",
+    "status": 0
+  },
+  {
+    "name": "RDS",
+    "definition": "respirable dust standard",
+    "status": 0
+  },
+  {
+    "name": "REL",
+    "definition": "recommended exposure limit",
+    "status": 0
+  },
+  {
+    "name": "REM",
+    "definition": "roentgen equivalent in man",
+    "status": 0
+  },
+  {
+    "name": "RF",
+    "definition": "radio frequency",
+    "status": 0
+  },
+  {
+    "name": "RFO",
+    "definition": "Recovery Field Office",
+    "status": 0
+  },
+  {
+    "name": "RN",
+    "definition": "registered nurse",
+    "status": 0
+  },
+  {
+    "name": "ROPS",
+    "definition": "rollover protective structure",
+    "status": 0
+  },
+  {
+    "name": "ROV",
+    "definition": "Remote Operated Vessel",
+    "status": 2
+  },
+  {
+    "name": "RPA",
+    "definition": "Respirator Program Administrator",
+    "status": 2
+  },
+  {
+    "name": "RPE",
+    "definition": "registered professional engineer",
+    "status": 0
+  },
+  {
+    "name": "RSA",
+    "definition": "Runway Safety Area",
+    "status": 2
+  },
+  {
+    "name": "RSC",
+    "definition": "radiation safety committee",
+    "status": 0
+  },
+  {
+    "name": "RSO",
+    "definition": "radiation safety officer",
+    "status": 0
+  },
+  {
+    "name": "RSSO",
+    "definition": "USACE Radiation Safety Staff Officer",
+    "status": 0
+  },
+  {
+    "name": "RT",
+    "definition": "Rough Terrain",
+    "status": 2
+  },
+  {
+    "name": "RX",
+    "definition": "Prescription",
+    "status": 2
+  },
+  {
+    "name": "SAE",
+    "definition": "Society of Automotive Engineers",
+    "status": 0
+  },
+  {
+    "name": "SAMS",
+    "definition": "Society of Accredited Marine Surveyors",
+    "status": 0
+  },
+  {
+    "name": "SAR",
+    "definition": "supplied-air respirator",
+    "status": 0
+  },
+  {
+    "name": "SCBA",
+    "definition": "self-contained breathing apparatus",
+    "status": 0
+  },
+  {
+    "name": "SCUBA",
+    "definition": "self-contained underwater breathing apparatus",
+    "status": 0
+  },
+  {
+    "name": "SDS",
+    "definition": "Safety Data Sheet",
+    "status": 2
+  },
+  {
+    "name": "SHM",
+    "definition": "safety and health manager",
+    "status": 0
+  },
+  {
+    "name": "SIA",
+    "definition": "Scaffold Industry Association",
+    "status": 0
+  },
+  {
+    "name": "SLP",
+    "definition": "Scaffold Industry Association",
+    "status": 2
+  },
+  {
+    "name": "SMS",
+    "definition": "safety monitoring system",
+    "status": 0
+  },
+  {
+    "name": "SOH",
+    "definition": "Safety and Occupational Health",
+    "status": 2
+  },
+  {
+    "name": "SOHO",
+    "definition": "Safety and Occupational Health Office",
+    "status": 0
+  },
+  {
+    "name": "SOP",
+    "definition": "standard operating procedure",
+    "status": 0
+  },
+  {
+    "name": "SCPD",
+    "definition": "Safety Plan Compliance Document",
+    "status": 2
+  },
+  {
+    "name": "SPF",
+    "definition": "sun protection factor",
+    "status": 0
+  },
+  {
+    "name": "SR",
+    "definition": "Selection Required",
+    "status": 2
+  },
+  {
+    "name": "SRD",
+    "definition": "Self Retracting Device",
+    "status": 2
+  },
+  {
+    "name": "SSA",
+    "definition": "surface-supplied air",
+    "status": 0
+  },
+  {
+    "name": "SSHO",
+    "definition": "site safety and health officer",
+    "status": 0
+  },
+  {
+    "name": "SSHP",
+    "definition": "site safety and health plan",
+    "status": 0
+  },
+  {
+    "name": "SUV",
+    "definition": "Sport Utility Vehicle",
+    "status": 2
+  },
+  {
+    "name": "Sv",
+    "definition": "sieverts",
+    "status": 0
+  },
+  {
+    "name": "SZ",
+    "definition": "support zone",
+    "status": 0
+  },
+  {
+    "name": "TB MED",
+    "definition": "Technical Bulletin, Medical",
+    "status": 0
+  },
+  {
+    "name": "T&M",
+    "definition": "time and materials",
+    "status": 0
+  },
+  {
+    "name": "TEDE",
+    "definition": "total equivalent dose exposure",
+    "status": 0
+  },
+  {
+    "name": "TIP",
+    "definition": "tie-in point",
+    "status": 0
+  },
+  {
+    "name": "TLV",
+    "definition": "threshold limit value",
+    "status": 0
+  },
+  {
+    "name": "TSD",
+    "definition": "treatment storage and disposal",
+    "status": 0
+  },
+  {
+    "name": "TWA",
+    "definition": "time-weighted average",
+    "status": 0
+  },
+  {
+    "name": "UDC",
+    "definition": "USACE Command Diving Coordinator",
+    "status": 0
+  },
+  {
+    "name": "UFC",
+    "definition": "Uniform Freight Classification",
+    "status": 0
+  },
+  {
+    "name": "UFGS",
+    "definition": "Unified Facilities Guide Specification",
+    "status": 0
+  },
+  {
+    "name": "UL",
+    "definition": "Underwriters Laboratory",
+    "status": 0
+  },
+  {
+    "name": "USACE",
+    "definition": "U.S. Army Corps of Engineers",
+    "status": 0
+  },
+  {
+    "name": "USCG",
+    "definition": "U.S. Coast Guard",
+    "status": 0
+  },
+  {
+    "name": "USEPA",
+    "definition": "U.S. Environmental Protection Agency",
+    "status": 0
+  },
+  {
+    "name": "UST",
+    "definition": "underground storage tank",
+    "status": 0
+  },
+  {
+    "name": "UVs",
+    "definition": "Utility Vehicles",
+    "status": 2
+  },
+  {
+    "name": "UV",
+    "definition": "ultraviolet",
+    "status": 0
+  },
+  {
+    "name": "UVA",
+    "definition": "ultraviolet A-region",
+    "status": 0
+  },
+  {
+    "name": "UVB",
+    "definition": "ultraviolet B-region",
+    "status": 0
+  },
+  {
+    "name": "UXO",
+    "definition": "unexploded ordnance",
+    "status": 0
+  },
+  {
+    "name": "VLL",
+    "definition": "vertical life line",
+    "status": 0
+  },
+  {
+    "name": "WBGT",
+    "definition": "wet bulb globe temperature",
+    "status": 0
+  },
+  {
+    "name": "WLL",
+    "definition": "Working Load Limit",
+    "status": 2
+  },
+  {
+    "name": "WLS",
+    "definition": "warning line system",
+    "status": 0
+  },
+  {
+    "name": "WP",
+    "definition": "White Phosphorous",
+    "status": 0
+  },
+  {
+    "name": "Wt.",
+    "definition": "Weight",
+    "status": 2
+  }
+]

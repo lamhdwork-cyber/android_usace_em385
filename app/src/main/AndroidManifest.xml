@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.navfac.usace.safety">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        tools:node="remove" />
+
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+
+        <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+
+        <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+
+        <!-- Share -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+        </intent>
+        <!-- Web Browser -->
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+
+    <!-- android:allowBackup="true"
+    android:usesCleartextTraffic="true" -->
+
+    <application
+        android:name=".base.application.App"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="false" >
+        <activity
+            android:name=".features.htmlpage.HtmlPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.homesearch.HomeSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.bottomtab.settings.featuresintro.FeaturesIntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.sectionandappendices.sections.SectionsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.sectionandappendices.appendices.details.AppendicesDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.sectionandappendices.details.newdetails.SectionAppendicesDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.bottomtab.settings.waiver.WaiverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.safetyvideos.imagedetails.ImageDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.sectionandappendices.base.SectionAppendicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.formfigure.FormFigureBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".features.splashScreen.SplashScreenActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

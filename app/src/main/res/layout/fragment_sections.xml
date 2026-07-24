@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.navfac.usace.safety.features.sectionandappendices.sections.SectionViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myColorBackground"
+        tools:context=".features.sectionandappendices.sections.SectionsFragment">
+
+        <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/_dp12"
+            android:layout_marginHorizontal="@dimen/_dp30"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/sections_tv_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:textColor="@color/myColorForeground"
+                android:textSize="44sp"
+                tools:text="CH 20" />
+
+            <TextView
+                android:id="@+id/sections_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:textColor="@color/myColorForeground"
+                android:textSize="22sp"
+                tools:text="CH 20" />
+
+        </LinearLayout>
+        <!--<ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:dividerHeight="0.5dp"
+            android:footerDividersEnabled="false"
+            android:groupIndicator="@null"
+            android:listSelector="@android:color/transparent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sections_rv_sections"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/myColorBackground"
+            android:clipToPadding="false"
+            android:paddingHorizontal="15dp"
+            android:paddingTop="30dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleLayout"
+            tools:itemCount="4"
+            tools:listitem="@layout/item_sections" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

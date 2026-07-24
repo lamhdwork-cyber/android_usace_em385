@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_bottombar"
+        android:title="@string/tab_home" />
+
+
+    <item
+        android:id="@+id/bookmarkFragment"
+        android:icon="@drawable/ic_bookmark_bottombar"
+        android:title="@string/tab_bookmarks" />
+
+
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_search_bottombar"
+        android:title="@string/tab_search" />
+
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings_bottombar"
+        android:title="@string/tab_settings" />
+
+</menu>

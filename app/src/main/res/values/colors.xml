@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EE1D23</color>
+    <color name="colorPrimaryDark">#EE1D23</color>
+    <color name="colorAccent">#EE1D23</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#F1F3F3</color>
+
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#5F5F5F</color>
+    <color name="colorLabelText">#070D1A</color>
+    <color name="colorDivider">#DFDFDF</color>
+
+    <!-- Material Button Theming -->
+    <color name="kitkat_pressed_state">#16000000</color>
+    <color name="kitkat_focused_state">#77000000</color>
+
+    <color name="FOCUSED_STATE_COLOR">@color/kitkat_focused_state</color>
+    <color name="NORMAL_STATE_COLOR">@color/colorPrimary</color>
+    <color name="PRESSED_STATE_COLOR">@color/kitkat_pressed_state</color>
+    <color name="colorButtonNormal">@color/colorPrimary</color>
+
+
+    <color name="myColorBackground">#FFFFFF</color>
+    <color name="myColorSelectBack">#F1E9E6</color>
+    <color name="myColorForeground">#000000</color>
+    <color name="myColorDarkGray">#B3B3B3</color>
+
+    <color name="toolBarBack">#F6F5F6</color>
+    <color name="toolBarTint">#878787</color>
+
+    <color name="newItemColor">#4CAF50</color>
+
+    <color name="bottomSheetColor1">#CAE1E1E1</color>
+    <color name="bottomSheetColor2">#F1F3F3</color>
+    <color name="menuColor">#615552</color>
+    <color name="chapterColor">#4D4D4D</color>
+</resources>

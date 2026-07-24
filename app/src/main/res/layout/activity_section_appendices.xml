@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewPagerAdapter"
+            type="com.navfac.usace.safety.base.utils.ViewPagerAdapter" />
+
+        <variable
+            name="vm"
+            type="com.navfac.usace.safety.features.sectionandappendices.base.SectionAppendicesViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+            <!--android:theme="@style/AppTheme.AppBarOverlay.Dark"-->
+            <!--<include layout="@layout/toolbar_white" />-->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/myColorBackground"
+                app:contentInsetStart="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/toolBarBack"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/ntoolbarback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/toolbar_padding_large"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_back_asset"
+                        app:tint="@color/myColorForeground" />
+
+                    <TextView
+                        android:id="@+id/ntoolbartitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/myColorForeground"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/tv_empty"
+                        app:layout_constraintStart_toEndOf="@+id/ntoolbarback"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Toolbar Title" />
+
+                    <TextView
+                        android:id="@+id/tv_empty"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:visibility="invisible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0.5dp"
+                        android:background="@android:color/darker_gray"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.navfac.usace.safety.base.utils.CustomTabLayout
+                android:id="@+id/sections_appendices_ctl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/myColorBackground"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+                app:tabBackground="@color/myColorBackground"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabIndicatorHeight="2dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/myColorForeground"
+                app:tabTextAppearance="@style/TabLayoutTextStyle"
+                app:tabTextColor="@color/myColorDarkGray" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!--com.navfac.usace.safety.base.utils.NonSwipeableViewPager-->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/sections_appendices_nsvp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adapter="@{viewPagerAdapter}"
+            android:background="@color/myColorBackground"
+            android:offscreenPageLimit="@{vm.offscreenPageLimit}"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

@@ -1,0 +1,173 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'io.realm.kotlin'
+    id 'dagger.hilt.android.plugin'
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('../usaceem385_1_1.jks')
+            storePassword '12unitcycleiciclepear'
+            keyAlias 'navfac'
+            keyPassword 'waterpointcommand17green'
+        }
+    }
+    namespace "com.navfac.usace.safety"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.navfac.usace.safety"
+        minSdk 21
+        targetSdk 36
+        versionCode 34
+        versionName "2.0.3.9"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        ndkVersion "27.3.13750724"
+        ndk {
+            abiFilters "arm64-v8a", "armeabi-v7a", "x86_64"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    android {
+        applicationVariants.configureEach { variant ->
+            variant.outputs.forEach { output ->
+                def date = new Date().format("MMddyy")
+                if (output.outputFileName != null && output.outputFileName.endsWith(".apk")) {
+                    output.outputFileName = "USACE-EM385-APP-${variant.buildType.name}-v${variant.versionName}-${variant.versionCode}-${date}.apk"
+                }
+            }
+        }
+    }
+
+    ndkVersion "21.3.6528147"
+
+    buildFeatures {
+        dataBinding = true
+        buildConfig = true
+    }
+
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    def gson = '2.8.9'
+    def card_view = "1.0.0"
+    def recyclerview = '1.2.1'
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation "androidx.multidex:multidex:$multiDexVersion"        // Multi Dex
+    implementation "androidx.cardview:cardview:$card_view"              // Card View
+    implementation "androidx.recyclerview:recyclerview:$recyclerview"   // Recycler View
+    implementation "androidx.viewpager2:viewpager2:$viewPager2_version" // ViewPager 2
+    implementation 'com.google.android.material:material:1.5.0'         // Material Design
+
+    // Room
+    kapt "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.room:room-ktx:$roomVersion"
+    implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-rxjava2:$roomVersion"
+
+    // GSON Serializer
+    implementation "com.google.code.gson:gson:$gson"
+
+    // Navigation Components
+    def nav_version = '2.4.1'
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    // Lifecycle Components
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    // Coroutines
+    def coroutine_version = '1.5.2-native-mt'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutine_version}"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${coroutine_version}"
+
+    // Hilt Dependency Injection
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // Photo Zoom Library
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    // Slide
+    def image_slider = '1.4.0'
+    implementation "com.github.smarteist:Android-Image-Slider:$image_slider"
+
+    // RxJava
+    implementation "io.reactivex.rxjava2:rxandroid:$rx_android_version"
+    implementation "io.reactivex.rxjava2:rxjava:$rx_java_version"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rx_kotlin_version"
+    implementation "com.jakewharton.rxrelay2:rxrelay:$rx_relay_version"
+
+    // iTXT
+    implementation 'com.itextpdf:itext-pdfa:5.5.13.2'
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.itextpdf.tool:xmlworker:5.5.13.2'
+
+    // Guava
+    implementation "com.google.guava:guava:$guavaVersion"
+
+    // Power Preference
+    implementation "com.github.AliAsadi:PowerPreference:$power_pref"
+
+    // Kesho
+    implementation "com.github.alirezat775:kesho:$kesho"
+
+    //HTML parser
+    implementation 'org.jsoup:jsoup:1.14.3'
+
+    //Realm DB
+    implementation("io.realm.kotlin:library-base:3.0.0")
+
+    //Firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.7.4"))
+    implementation("com.google.firebase:firebase-crashlytics")
+    implementation("com.google.firebase:firebase-analytics")
+
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'io.github.afreakyelf:Pdf-Viewer:2.3.3'
+    implementation 'com.ixuea:android-downloader:3.0.1'
+}

@@ -1,0 +1,55 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">USACE</string>
+
+    <string name="app_intro_title">Safety and Occupational Health (SOH) Requirements</string>
+    <string name="app_intro_subtitle">EM 385–1–1 (15 March 2024)</string>
+    <string name="app_intro_skip">Skip Tutorial</string>
+    <string name="app_intro_done">Done</string>
+
+    <string name="features_into_title_1">View Manual</string>
+    <string name="features_into_title_2">Search</string>
+    <string name="features_into_title_3">Bookmarking</string>
+    <string name="features_into_title_4">Available Offline</string>
+
+    <string name="features_into_content_1">800+ pages available at your fingertips!\nEasy to use in the field or on the go.</string>
+    <string name="features_into_content_2">Auto-Complete functionality\nquick find what you need, when you need it.</string>
+    <string name="features_into_content_3">Return quickly to frequently used content.</string>
+    <string name="features_into_content_4">Entire manual downloaded automatically \n on first launch, for access anytime!</string>
+    <string name="hint_search">Search</string>
+    <string name="lbl_search_empty">Search any section, appendix, acronym, figure, form, table or definition</string>
+
+    <string name="label_sections_subtitle">%s. %s</string>
+    <string name="label_sections_title">%s %s</string>
+
+    <string name="toolbar_font">Aa</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_decline">Decline</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_settings">Settings</string>
+    <string name="home_footer">BUILDING STRONG SAFELY</string>
+    <string name="home_logo1">US Army Corps</string>
+    <string name="home_logo2">of Engineers</string>
+
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_show_feature_intro">Show feature introduction</string>
+    <string name="settings_show_waiver">Show waiver</string>
+    <string name="settings_introduction">Introduction</string>
+    <string name="settings_contact_feedback">Contact &amp; Feedback</string>
+    <string name="settings_tutorial">Tutorial</string>
+    <string name="settings_contact_closest_office">Contact closest USACE office</string>
+    <string name="settings_contact_for_questions">For content questions</string>
+    <string name="settings_send_app_feedback">Send app feedback</string>
+    <string name="settings_rate_on_google_play">Rate on Google Play!</string>
+    <string name="item_new">NEW</string>
+    <string name="button_back">Back</string>
+    <string name="hint_no_bookmark_added">No Bookmark Added!</string>
+
+    <string name="menu_highlight">Highlight</string>
+    <string name="menu_unhighlight">Remove Highlight</string>
+    <string name="hint_no_data">No data available</string>
+    <string name="font_template">A</string>
+    <string name="btn_back">Back</string>
+    <string name="download_file_fail">There was an error downloading the file, please try again</string>
+</resources>

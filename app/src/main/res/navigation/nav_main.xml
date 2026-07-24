@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.navfac.usace.safety.features.bottomtab.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_acronymsFragment"
+            app:destination="@id/acronymsFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_resourceFragment"
+            app:destination="@id/resourceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tableFragment"
+            app:destination="@id/tableFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_definitionFragment"
+            app:destination="@id/definitionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sectionAppendicesFragment"
+            app:destination="@id/sectionAppendicesFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToSaveState="true"/>
+        <action
+            android:id="@+id/action_homeFragment_to_formFigureBaseFragment"
+            app:destination="@id/formFigureBaseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.navfac.usace.safety.features.bottomtab.bookmark.BookmarkFragment"
+        android:label="BookmarkFragment"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.navfac.usace.safety.features.bottomtab.search.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.navfac.usace.safety.features.bottomtab.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acronymsFragment"
+        android:name="com.navfac.usace.safety.features.acronyms.AcronymsFragment"
+        android:label="AcronymsFragment">
+        <action
+            android:id="@+id/action_acronymsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resourceFragment"
+        android:name="com.navfac.usace.safety.features.resources.ResourceFragment"
+        android:label="ResourceFragment">
+        <action
+            android:id="@+id/action_resourceFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.navfac.usace.safety.features.table.TableFragment"
+        android:label="TableFragment">
+        <action
+            android:id="@+id/action_tableFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/definitionFragment"
+        android:name="com.navfac.usace.safety.features.definition.DefinitionFragment"
+        android:label="DefinitionFragment">
+        <action
+            android:id="@+id/action_definitionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/safetyVideosFragment"
+        android:name="com.navfac.usace.safety.features.safetyvideos.SafetyVideosFragment"
+        android:label="SafetyVideosFragment" />
+    <fragment
+        android:id="@+id/sectionAppendicesFragment"
+        android:name="com.navfac.usace.safety.features.sectionandappendices.base.SectionAppendicesFragment"
+        android:label="SectionAppendicesFragment" />
+    <fragment
+        android:id="@+id/formFigureBaseFragment"
+        android:name="com.navfac.usace.safety.features.formfigure.FormFigureBaseFragment"
+        android:label="FormFigureBaseFragment" />
+
+</navigation>

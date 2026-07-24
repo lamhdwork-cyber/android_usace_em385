@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="AlwaysShowAction" >
+    <item
+        android:id="@+id/highlight"
+        android:title="@string/menu_highlight"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/unhighlight"
+        android:title="@string/menu_unhighlight"
+        app:showAsAction="ifRoom" />
+</menu>

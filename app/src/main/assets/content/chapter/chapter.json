@@ -1,0 +1,213 @@
+
+
+[
+    {
+        "key": "Safety and Occupational Health Program Management for United States Army Corps of Engineers Personnel",
+        "id":0
+        
+    },
+    {
+        "key": "Safety and Occupational Health Program Management for Contractors",
+        "id":1
+    },
+    
+    {
+        "key": "Medical and First Aid",
+        "id":2
+    },
+    {
+        "key": "Temporary Facilities",
+        "id":3
+        
+    },
+
+    {
+        "key": "Personal Protective and Lifesaving Equipment",
+        "id":4
+    },
+    
+    
+    {
+        "key": "Hazardous or Toxic Agents and Environments",
+        "id":5
+    },
+    
+    {
+        "key": "Lighting",
+        "id":6
+    },
+    {
+        "key": "Accident Prevention Signs, Tags, Labels, Signals, and Traffic Control",
+        "id":7
+    },
+    {
+        "key": "Fire Prevention and Protection",
+        "id":8
+    },
+    {
+        "key": "Welding and Cutting",
+        "id":9
+    },
+    
+    {
+        "key": "Electrical",
+        "id":10
+    },
+    
+    {
+        "key": "Control of Hazardous Energy",
+        "id":11
+        
+    },
+    
+    {
+        "key": "Hand and Power Tools",
+        "id":12
+    },
+    {
+        "key": "Material Handling, Storage, Disposal, and Conveyors",
+        "id":13
+    },
+    
+    {
+        "key": "Rigging",
+        "id":14
+        
+    },
+    
+    {
+        "key": "Load Handling Equipment",
+        "id":15
+        
+    }
+    ,
+    {
+        "key": "Demolition, Renovation, and Re-Occupancy",
+        "id":16
+        
+    },
+    
+    {
+        "key": "Vehicles, Machinery, and Mechanized Equipment",
+        "id":17
+        
+    },
+    
+    
+    {
+        "key": "Floating Plant and Marine Activities",
+        "id":18
+        
+    }
+    ,
+    {
+        "key": "Pressurized Equipment and Systems",
+        "id":19
+    },
+    
+    {
+        "key": "Fall Protection",
+        "id":20
+        
+    }
+    ,
+    {
+        "key": "Working Platforms and Scaffolding",
+        "id":21
+        
+    },
+    
+    {
+        "key": "Rope Access",
+        "id":22
+        
+    }
+    ,
+    {
+        "key": "Safe Access",
+        "id":23
+        
+    }
+    ,
+    
+    
+    {
+        "key": "Excavations and Trenching",
+        "id":24
+        
+    }
+    ,
+    
+    {
+        "key": "Underground Construction, Shafts, and Caissons",
+        "id":25
+        
+    }
+    ,
+    
+    {
+        "key": "Concrete, Masonry, Roofing, and Wood Construction",
+        "id":26
+        
+    } ,
+    
+    
+    {
+        "key": "Steel Erection",
+        "id":27
+        
+    },
+    
+    {
+        "key": "Blasting",
+        "id":28
+        
+    }
+    ,
+    {
+        "key": "Diving Operations",
+        "id":29
+        
+    }
+    ,
+    {
+        "key": "Tree Maintenance and Removal",
+        "id":30
+        
+    },
+    
+    {
+        "key": "Airfield and Aircraft Operations",
+        "id":31
+        
+    }
+    ,
+    {
+        "key": "Uncrewed Aircraft",
+        "id":32
+        
+    }
+    ,
+    {
+        "key": "Confined Space",
+        "id":33
+        
+    }
+    ,
+    {
+        "key": "Sanitation",
+        "id":34
+        
+    },
+    
+    {
+        "key": "Hazardous Waste Operations and Emergency Response",
+        "id":35
+    },
+    
+    {
+        "key": "Emergency Operations",
+        "id":36
+    }
+    
+]

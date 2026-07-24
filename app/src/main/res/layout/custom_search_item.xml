@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myColorBackground"
+    tools:ignore="UnusedAttribute">
+
+    <TextView
+        android:id="@+id/search_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/item_search_bookmark"
+        app:layout_constraintStart_toStartOf="@+id/search_item_categorys"
+        app:layout_constraintTop_toBottomOf="@+id/search_item_categorys"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/search_item_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/myColorForeground"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/search_item_name"
+        app:layout_constraintStart_toStartOf="@+id/search_item_name"
+        app:layout_constraintTop_toBottomOf="@+id/search_item_name"
+        tools:text="Data" />
+
+    <TextView
+        android:id="@+id/search_item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="@string/item_new"
+        android:textAllCaps="true"
+        android:textColor="@color/newItemColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/search_item_categorys"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_item_categorys" />
+
+    <TextView
+        android:id="@+id/search_item_categorys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="Type/Category"
+        android:textColor="@color/colorWhite"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/search_item_name" />
+
+    <ImageView
+        android:id="@+id/item_search_bookmark"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="15dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/search_item_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_item_name"
+        app:srcCompat="@drawable/ic_bookmark_gray_asset" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

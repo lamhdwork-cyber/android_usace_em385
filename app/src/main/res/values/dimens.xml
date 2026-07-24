@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_xx_small">2dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_regular">16dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+    <dimen name="margin_xxlarge">56dp</dimen>
+    <dimen name="margin_xxxlarge">64dp</dimen>
+    <dimen name="margin_xxxxlarge">72dp</dimen>
+    <dimen name="margin_huge">110dp</dimen>
+
+    <dimen name="_dp12">12dp</dimen>
+    <dimen name="_dp30">30dp</dimen>
+    <dimen name="_dp150">150dp</dimen>
+    <dimen name="_dp200">200dp</dimen>
+    <dimen name="_dp250">250dp</dimen>
+    <dimen name="_dp300">300dp</dimen>
+    <dimen name="_dp350">350dp</dimen>
+    <dimen name="_dp500">500dp</dimen>
+    <dimen name="_dp550">550dp</dimen>
+    <dimen name="_dp700">700dp</dimen>
+
+    <dimen name="font_size_xxx_small">6sp</dimen>
+    <dimen name="font_size_xx_small">8sp</dimen>
+    <dimen name="font_size_extra_small">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_regular">14sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_extra_large">24sp</dimen>
+    <dimen name="font_size_xx_large">28sp</dimen>
+    <dimen name="font_size_xxx_large">32sp</dimen>
+    <dimen name="font_size_xxxx_large">40sp</dimen>
+    <dimen name="font_size_xxxxx_large">48sp</dimen>
+
+    <dimen name="_sp18">18sp</dimen>
+    <dimen name="_sp35">35sp</dimen>
+
+    <dimen name="radius_small">5dp</dimen>
+    <dimen name="radius_medium">10dp</dimen>
+    <dimen name="radius_large">15dp</dimen>
+    <dimen name="radius_xlarge">30dp</dimen>
+    <dimen name="radius_extra_large">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="space_divider_size">1dp</dimen>
+
+    <dimen name="icon_extra_small">16dp</dimen>
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_normal">36dp</dimen>
+    <dimen name="icon_medium">48dp</dimen>
+    <dimen name="icon_large">64dp</dimen>
+    <dimen name="icon_xlarge">72dp</dimen>
+    <dimen name="icon_xxlarge">96dp</dimen>
+    <dimen name="icon_xxxlarge">120dp</dimen>
+    <dimen name="icon_xxxxlarge">144dp</dimen>
+    <dimen name="icon_xxxxxlarge">164dp</dimen>
+    <dimen name="icon_huge">280dp</dimen>
+    <dimen name="image_size_small">120dp</dimen>
+    <dimen name="image_size_medium">144dp</dimen>
+    <dimen name="image_size_large">168dp</dimen>
+    <dimen name="image_size_huge">300dp</dimen>
+    <dimen name="dialog_base_width">800dp</dimen>
+
+    <dimen name="divider_small">1dp</dimen>
+    <dimen name="divider_medium">2dp</dimen>
+    <dimen name="divider_large">3dp</dimen>
+
+    <dimen name="button_stroke">2dp</dimen>
+
+    <dimen name="button_height_material">25dp</dimen>
+    <dimen name="button_min_width_material">64dp</dimen>
+
+    <!-- Default insets (outer padding) around buttons -->
+    <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_inset_horizontal_material">@dimen/control_inset_material</dimen>
+    <!-- Default inner padding within buttons -->
+    <dimen name="button_padding_vertical_material">@dimen/control_padding_material</dimen>
+    <dimen name="button_padding_horizontal_material">8dp</dimen>
+
+    <!-- Default insets (outer padding) around controls -->
+    <dimen name="control_inset_material">4dp</dimen>
+    <!-- Default inner padding within controls -->
+    <dimen name="control_padding_material">4dp</dimen>
+    <!-- Default rounded corner for controls -->
+    <dimen name="control_corner_material">2dp</dimen>
+
+    <dimen name="toolbar_button_size">40dp</dimen>
+    <dimen name="toolbar_padding_small">8dp</dimen>
+    <dimen name="toolbar_padding_large">12dp</dimen>
+</resources>

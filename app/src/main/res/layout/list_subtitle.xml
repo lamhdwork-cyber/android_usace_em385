@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.navfac.usace.safety.base.db.SectionsSubtitleEntity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_sections_cl_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myColorBackground">
+
+        <TextView
+            android:id="@+id/item_sections_tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/myColorBackground"
+            android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@{String.format(@string/label_sections_subtitle, item.ordinal, item.title)}"
+            tools:text="A. Test"
+            android:textColor="@color/myColorForeground"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

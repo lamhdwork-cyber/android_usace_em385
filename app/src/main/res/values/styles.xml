@@ -1,0 +1,41 @@
+<resources>
+    <!-- Tab Text Style. -->
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+
+    <!-- BottomSheet. -->
+    <style name="BottomDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- BottomSheet Animation. -->
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/translatedialogin</item>
+        <item name="android:windowExitAnimation">@anim/translatedialogout</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <!-- Flat Button -->
+    <style name="material_button">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:height">@dimen/button_height_material</item>
+        <item name="android:minWidth">@dimen/button_min_width_material</item>
+    </style>
+
+    <style name="material_button.flat" parent="material_button">
+        <item name="android:background">@drawable/flat_button</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.navfac.usace.safety.features.htmlpage.HtmlPageViewModel" />
+
+        <variable
+            name="handler"
+            type="com.navfac.usace.safety.features.htmlpage.HtmlPageHandler" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimary">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentInsetStart="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/NORMAL_STATE_COLOR"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/ntoolbarback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/toolbar_padding_large"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="@string/btn_back"
+                        android:textSize="16sp"
+                        android:onClick="@{() -> handler.onBack()}"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        app:drawableStartCompat="@drawable/ic_back_asset"
+                        app:drawableTint="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/ntoolbartitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Toolbar Title"
+                        android:textColor="@color/myColorForeground"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="@+id/ntoolbarback"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/ntoolbarback" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="@+id/ntoolbarback"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginVertical="8dp"
+                        app:layout_constraintTop_toTopOf="@+id/ntoolbarback">
+
+                        <ImageView
+                            android:id="@+id/ivLogo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_logo"
+                            app:layout_constraintBottom_toBottomOf="@+id/ntoolbarback"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/ntoolbarback" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:layout_marginTop="5dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/ivLogo"
+                            app:layout_constraintStart_toEndOf="@+id/ivLogo"
+                            app:srcCompat="@drawable/ic_registered_trademark" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rightButtons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iv_toolbarShare"
+                            android:layout_width="@dimen/toolbar_button_size"
+                            android:layout_height="@dimen/toolbar_button_size"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="@dimen/toolbar_padding_large"
+                            android:onClick="@{() -> handler.onShare()}"
+                            app:srcCompat="@drawable/ic_share_asset"
+                            app:tint="@color/colorWhite" />
+
+                        <ImageView
+                            android:id="@+id/iv_toolbarBookmark"
+                            android:layout_width="@dimen/toolbar_button_size"
+                            android:layout_height="@dimen/toolbar_button_size"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="@dimen/toolbar_padding_large"
+                            app:tint="@color/colorWhite"
+                            android:onClick="@{() -> handler.onBookMark()}"
+                            android:src="@{viewModel.currentPageBookmarked? @drawable/ic_bookmark_red_asset: @drawable/ic_bookmark_gray_asset}"
+                            tools:ignore="UnusedAttribute"/>
+
+                        <TextView
+                            android:id="@+id/tv_toolbarFontSettings"
+                            android:layout_width="@dimen/toolbar_button_size"
+                            android:layout_height="@dimen/toolbar_button_size"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:onClick="@{() -> handler.onFontSettings()}"
+                            android:text="@string/toolbar_font"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="15sp"
+
+                            tools:ignore="UnusedAttribute" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0.5dp"
+                        android:background="@android:color/darker_gray"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/htmlPage_vp_contents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/myColorBackground"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include5" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

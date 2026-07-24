@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.navfac.usace.safety.features.bottomtab.search.model.SearchModelItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myColorBackground"
+        tools:ignore="UnusedAttribute">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/search_tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="@{item.name}"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/search_iv_bookmark"
+            app:layout_constraintStart_toStartOf="@+id/search_tv_categories"
+            app:layout_constraintTop_toBottomOf="@+id/search_tv_categories"
+            tools:text="Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/search_tv_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@{item.data}"
+            android:textColor="@color/myColorForeground"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/search_tv_name"
+            app:layout_constraintStart_toStartOf="@+id/search_tv_name"
+            app:layout_constraintTop_toBottomOf="@+id/search_tv_name"
+            tools:text="Data" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/search_tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:text="@string/item_new"
+            android:textAllCaps="true"
+            android:textColor="@color/newItemColor"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/search_tv_categories"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/search_tv_categories" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/search_tv_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@{item.category}"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Category" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/search_tv_name" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/search_iv_bookmark"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="15dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/search_tv_data"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/search_tv_name"
+            app:srcCompat="@drawable/ic_bookmark_gray_asset" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

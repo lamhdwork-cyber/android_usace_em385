@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248419673168",
+    "project_id": "usace-em385",
+    "storage_bucket": "usace-em385.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248419673168:android:d8e47cb6456cfced6b1d55",
+        "android_client_info": {
+          "package_name": "com.navfac.usace.safety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFAVJB1DFuvlSIVTM20WN2Ac-fVTw4I8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

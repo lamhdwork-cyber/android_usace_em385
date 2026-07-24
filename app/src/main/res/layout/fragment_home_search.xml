@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewmodel"
+            type="com.navfac.usace.safety.features.homesearch.HomeSearchViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myColorBackground"
+        android:padding="@dimen/margin_medium"
+        tools:context=".features.homesearch.HomeSearchFragment">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/homeSearch_et_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_rect_white_dark_border"
+            android:hint="@string/hint_search"
+            android:onTextChanged="@{(text,start,before,count) -> viewmodel.searchQueryStream.onNext(String.valueOf(text))}"
+            android:padding="@dimen/margin_regular"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeSearch_rv_results"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_regular"
+            android:visibility="@{viewmodel.queryResult.size() == 0? View.GONE: View.VISIBLE}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeSearch_et_query"
+            tools:listitem="@layout/custom_search_item"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/homeSearch_iv_empty"
+            android:layout_width="@dimen/icon_xxlarge"
+            android:layout_height="@dimen/icon_xxlarge"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@id/home_search_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@drawable/ic_search_bottombar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/home_search_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_regular"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_regular"
+            android:text="@string/lbl_search_empty"
+            android:textAlignment="center"
+            android:textColor="@color/myColorForeground"
+            android:visibility="@{viewmodel.queryResult.size() == 0? View.VISIBLE: View.GONE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/homeSearch_iv_empty"
+            app:layout_constraintStart_toStartOf="@+id/homeSearch_iv_empty"
+            app:layout_constraintTop_toBottomOf="@+id/homeSearch_iv_empty"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
